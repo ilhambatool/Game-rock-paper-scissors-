@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ROCK PAPER SCISSORS</title>
 </head>
 <body>
+  <div class="startGame">
+    <h1>Game: Rock, Paper and Scissors</h1>
+    <h2>Rock Paper Scissors Rules</h2>
+    <ol>
+      <li>Rock beats Scissors.</li>
+      <li>Scissors beats Paper.</li>
+      <li>Paper beats Rock.</li>
+      <li>If both players choose the same option, the round ends in a draw and no points are awarded.</li>
+      <li>The first player to score 5 points wins the game.</li>
+    </ol>
+    <button class="start">Start Game</button>
+  </div>
+  <div class="buttons">
+    <button id="rock">rock</button>
+    <button id="paper">paper</button>
+    <button id="scissors">scissors</button>
+    <p id="choices"></p>
+    <p id="round-result"></p>
+    <p id="score"></p>
+  </div>
+  <div class="results">
+    <p>GAME FINISHED</p>
+    <h2 id="winner"></h2>
+    <button class="reset">Play Again</button>
+  </div>
     <script src="js.js"></script>
 </body>
 </html>
